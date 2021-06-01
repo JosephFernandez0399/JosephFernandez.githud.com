@@ -7,11 +7,36 @@ Paleta de colores
 #8C4A32
 */
 /*comentarios en css*/
-.container{
-    background: #667db6;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+html{
+    font-family: 'Farro', sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color:blue;
+}
+.titulo{
+    text-transform: uppercase;
+}
+.paragraph{
+    line-height:1.8em;
+    font-weight:300;
+}
+.contenedor{
+    background: #667db6;  
+background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  
 background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); 
-/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 100vh;
+display:flex;
+align-items: center;
+justify-content:center;
+position:absolute;
+top:0;
+left:0;
+bottom:0;
+right:0;
+width:100%;
+box-shadow: 7px 7px 15px #592A08; 
 
 }
 .content{
@@ -20,22 +45,37 @@ background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
     width:100%;
     height:100%;
     background-color: white;
+    border-radius:4px;
+    box-shadow: 7px 7px 15px #592A08; 
+
+}
+.table{
+    width:100%;
+    border-spacing: 0;
+
+}
+.table td, .table th{
+                padding:1em;
+                text-align:left;
+}
+
+.table tr:nth-child(even){ background-color:#D4E6F1
+
 
 }
 
+.fa-star{
+    color:#ffc400; 
+}
+.titulos{
+    border-bottom: solid 2px #0082c8;
+    padding-bottom: 1em;
+}
+.position{
+    background-color: #0082c8;
+    color:white;
+    padding: 10px;
+    border-radius: 4px;
+  
 
-p{
-    color:red;
-}
-.red{
-    height:200px;
-    width:100px;
-    background-color:red;
-}
-#boton_pago{
-    background-color:yellow;
-
-}
-td{
-    border:solid 1px;
 }
