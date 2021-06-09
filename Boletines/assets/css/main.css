@@ -1,4 +1,4 @@
-/*
+ /*
 Paleta de colores
 #2B558C
 #6581A6
@@ -39,7 +39,8 @@ width:100%;
 box-shadow: 7px 7px 15px #592A08; 
 
 }
-.content{
+.content
+{
     max-width: 960px;
     max-height: 500px;
     width:100%;
@@ -47,6 +48,18 @@ box-shadow: 7px 7px 15px #592A08;
     background-color: white;
     border-radius:4px;
     box-shadow: 7px 7px 15px #592A08; 
+    position:relative;
+
+}
+.Accion{
+    position:absolute;
+    top:1em;
+    right:1em;
+}
+.close{
+    height:40px;
+    width:40px;
+    color:red;
 
 }
 .table{
