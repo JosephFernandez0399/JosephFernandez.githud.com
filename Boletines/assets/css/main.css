@@ -59,7 +59,16 @@ box-shadow: 7px 7px 15px #592A08;
 .close{
     height:40px;
     width:40px;
-    color:red;
+    color:white;
+    border-radius:50%;
+    background-color:#5858FA;
+    display:inline-block;
+    box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    font-weight:300;
+    cursor:pointer;
+    display: flex;
+    align-items:center;
+    justify-content:center;
 
 }
 .table{
