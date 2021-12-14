@@ -6,15 +6,21 @@
     
 </head>
 <body>
-    <h1>sitio wed</h1>
+ 
     <script> 
-    
-    var amigos = ["Joseph","Fanny", "Xareny"];
-    amigos[0] = "Arturo";
-    document.write(amigos[0]);
-    
-    
-    
+    var nombre;
+    var edad;
+    nombre = prompt("Cual es tu nombre?")
+    edad = prompt("Cual es tu edad?");
+    if(Number(edad)==edad){
+    if(edad>=18){
+        document.write("puedes conducir " +nombre);
+    }else{
+        document.write("no puedes conducir " +nombre);
+    }
+}else{
+    documennt.write("lo siento no es un numero " +nombre);
+}
     </script>
 </body>
 </hml>
